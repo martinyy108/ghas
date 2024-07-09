@@ -1,0 +1,9 @@
+{
+  "apiKey": "12345-ABCDE-67890-FGHIJ",
+  "database": {
+    "host": "localhost",
+    "port": 5432,
+    "user": "admin",
+    "password": "password"
+  }
+}

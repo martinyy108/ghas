@@ -1,0 +1,19 @@
+name: "Dependabot"
+
+on:
+  schedule:
+    - cron: '0 2 * * 1'
+
+jobs:
+  dependabot:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Run dependabot
+      uses: dependabot/dependabot-script@v1
+      with:
+        script: |
+          dependabot update
