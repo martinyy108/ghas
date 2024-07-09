@@ -1,2 +1,1 @@
-# ghas
-GitHub Advanced Security Quick Start
+# GitHub Advanced Security Quick Start
