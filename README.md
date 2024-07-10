@@ -1,5 +1,9 @@
 ## GitHub Advanced Security
 
+## Contact information
+
+- [Tim Warner's LinkedIn](https://timw.info/linkedin)
+
 - [About GitHub Advanced Security](https://docs.github.com/en/get-started/learning-about-github/about-github-advanced-security) - Detailed overview of GitHub Advanced Security features.
 - [Code Scanning](https://docs.github.com/en/code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/about-code-scanning) - Information on code scanning using CodeQL and third-party tools.
 - [Secret Scanning](https://docs.github.com/en/code-security/secret-scanning/about-secret-scanning) - Learn about detecting secrets such as keys and tokens in your repositories.
