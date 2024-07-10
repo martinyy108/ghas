@@ -1,5 +1,5 @@
 {
-  "apiKey": "12345-ABCDE-67890-FGHIJ",
+  "apiKey": "sk-abc123456789def123456789ghi12345",
   "database": {
     "host": "localhost",
     "port": 5432,

@@ -1,0 +1,23 @@
+name: Readme Link Checker
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  link-check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Run link check
+        uses: lycheeverse/lychee@v0.15.1
+        with:
+          path: README.md
