@@ -3,6 +3,7 @@ name: "Dependabot"
 on:
   schedule:
     - cron: '0 7 * * *' # Runs at 2am Central every morning
+  workflow_dispatch: # Allows manual triggering of the workflow
 
 jobs:
   dependabot:
